@@ -38,13 +38,13 @@ const Invitacion = () => {
             className="absolute inset-0 bg-center bg-cover md:bg-contain bg-no-repeat"
             style={{
               backgroundImage:
-                "url('https://res.cloudinary.com/dfschbyq2/image/upload/v1761658664/fb749458-a9b0-4305-b54d-aa06c3cb6a49_fpkt8z.jpg')",
+                "url('https://res.cloudinary.com/dfschbyq2/image/upload/v1761691976/Disen%CC%83o_sin_ti%CC%81tulo_91_uascx1.jpg')",
             }}
           >
-            <div className="absolute inset-0 bg-black/30"></div>
+            <div className="absolute inset-0"></div>
           </div>
 
-          <div className="relative z-10 flex flex-col items-center text-center text-white pt-96 h-full">
+          <div className="relative z-10 flex flex-col justify-end items-center text-center text-white h-full pb-32">
             <div className="flex items-end justify-center">
               <img
                 src={decoracionNombre}
@@ -52,10 +52,10 @@ const Invitacion = () => {
                 className="w-32 h-auto mr-3"
               />
               <div className="flex flex-col items-center">
-                <h1 className="text-4xl md:text-7xl font-bold tracking-wide">
+                <h1 className="text-4xl md:text-7xl font-bold tracking-wide text-blue-950">
                   Guadalupe
                 </h1>
-                <p className="text-xl md:text-2xl font-light tracking-wider">
+                <p className="text-xl md:text-2xl font-light tracking-wider text-gray-800">
                   MIS QUINCE AÑOS
                 </p>
               </div>
