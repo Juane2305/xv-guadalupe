@@ -38,27 +38,27 @@ const Invitacion = () => {
             className="absolute inset-0 bg-center bg-cover md:bg-contain bg-no-repeat"
             style={{
               backgroundImage:
-                "url('https://res.cloudinary.com/dfschbyq2/image/upload/v1761691976/Disen%CC%83o_sin_ti%CC%81tulo_91_uascx1.jpg')",
+                "url('https://res.cloudinary.com/dfschbyq2/image/upload/v1761695161/15_An%CC%83os_hnduwt.jpg')",
             }}
           >
             <div className="absolute inset-0"></div>
           </div>
 
-          <div className="relative z-10 flex flex-col justify-end items-center text-center text-white h-full pb-32">
+          <div className="relative z-10 flex flex-col justify-end items-center text-center text-white h-full pb-44">
             <div className="flex items-end justify-center">
               <img
                 src={decoracionNombre}
                 alt="Decoración invertida"
-                className="w-32 h-auto mr-3"
+                className="w-32 h-auto"
               />
-              <div className="flex flex-col items-center">
-                <h1 className="text-4xl md:text-7xl font-bold tracking-wide text-blue-950">
+              {/* <div className="flex flex-col items-center"> */}
+                <h1 className="text-4xl md:text-7xl font-bold tracking-wide text-[#b4a03c] mb-12">
                   Guadalupe
                 </h1>
-                <p className="text-xl md:text-2xl font-light tracking-wider text-gray-800">
+                {/* <p className="text-xl md:text-2xl font-light tracking-wider text-gray-800">
                   MIS QUINCE AÑOS
-                </p>
-              </div>
+                </p> */}
+              {/* </div> */}
               <img
                 src={decoracionNombre}
                 alt="Decoración normal"
